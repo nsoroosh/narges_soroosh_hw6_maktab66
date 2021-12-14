@@ -1,0 +1,114 @@
+/* F1F1F1 */
+
+* , *::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    background-color:   #f1f1f1; 
+    font-size: 8px;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    font-weight: bold;
+}
+header span{
+    background-color: black;
+    color: white;
+}
+header {
+    text-align: center;
+    margin: 20px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 50vw;
+    margin: 10px;
+    
+}
+.blog{
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.aside{
+    width: 20vw;
+}
+
+.profile{
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.posts{
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.posts h2{
+    background-color: #F1F1F1;
+    padding: 12px 10px;
+    
+}
+input{
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    font-family: 'Raleway', sans-serifs;
+    font-size: 7px;
+    padding: 5px ;
+}
+.tags{
+    margin: 10px ;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.item {
+    display: flex;
+    border-bottom: solid 1px #f1f1f1 ;
+}
+.describe{
+    padding: 10px;
+}
+.item img{
+    width: 40px ;
+    height: 40px;
+    margin: 5px;
+}
+.profile img{
+    width: 100%;
+}
+.blog  img{
+    width: 100% ;
+}
+.blogtext{
+    padding: 5px;
+}
+.button{
+    padding: 10px ;
+    display: flex;
+    justify-content: space-between;
+}
+.count {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 12px;
+}
+.text{
+    padding: 10px ;
+}
+.tag{
+    background-color: #f1f1f1;
+    
+}
+.tags h2 {
+    background-color: #f1f1f1;
+}
+.alltags{
+    padding: 10px ;
+}
